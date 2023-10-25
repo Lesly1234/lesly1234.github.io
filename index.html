@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Video</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ffc0cb; /* Color rosa claro */
+            background-image: url('cor.jpg'); /* Ruta a la imagen de corazones */
+            background-size: cover;
+        }
+        
+        #video-container {
+            width: 30%;
+            max-width: 400px;
+            text-align: center;
+            position: relative;
+        }
+        #video {
+            width: 100%;
+            height: auto;
+        }
+        .text-box {
+            width: 30%;
+            padding: 20px;
+            text-align: justify;
+            font-family: "Cursive", cursive; /* Cambia la fuente a "Cursive" */
+            font-size: 16px;
+            line-height: 1.4;
+            position: absolute;
+            background-color: rgba(255, 192, 203, 0.7); /* Color rosa claro con transparencia */
+        }
+        #left-text-box {
+            left: 0;
+            top: 0;
+        }
+        #right-text-box {
+            right: 0;
+            top: 0;
+        }
+        #popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+#popup-content {
+    background: #fff;
+    border: 2px solid #ff00ff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#yesButton, #noButton {
+    background: #ff00ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#yesButton:hover, #noButton:hover {
+    background: #ff66ff;
+}
+
+</style>
+    <script src="popup.js"></script>
+</head>
+<body>
+    <div id="video-container">
+        <video id="video" controls>
+            <source src="tiktok.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div id="left-text-box" class="text-box">
+        <h2> AMOR DE MI VIDA...</h2>
+        <p>Hola mi amorcito , hice esto para recordarte lo mucho que te amo y sobre todo para que sepas que estás presente en cada paso que doy,
+           mientras voy aprendiendo cosas nuevas , TÚ siempre estás en mi mente y no sabes lo feliz que me hace poder hacer cositas para ti 
+           mientras voy aprendiendo.
+           Quiero recordarte que tu amor me hace fuerte , que contigo a mi lado me siento fuerte y que puedo con todo . Sé que no estamos pasando 
+           por buenos momentos , mi niño lo sé , pero creeme que estoy dando todo de mi para que esto solo sea un pequeño tropiezo en nuestra hermosa
+           relación, nosotros podemos , sé que podemos, nuestra relación es lo que más quiero , es mi proyecto más importante porque eres realmente la persona 
+           con la que yo quiero pasar el resto de mi vida . Lo único que te pido es que por más dificil que se pongan las cosas , no dejes de luchar conmigo, 
+           que por más dificil que sea , al final del día lo que elijas sea quedarte a mi lado. Créeme mi amor que yo siempre voy a estar , incluso si estoy
+           triste , enojada , o sin ganas de nada , siempre voy a estar ,me quiero quedar hasta que lo nuestra relación vuelva a ser fuerte , hasta qu digamos
+           fué dificil pero lo logramos , fué dificil pero nuestro amor pudo más que todo.
+           Realmente eres todo lo que yo quiero , todo lo que siempre quise , y lo que siempre querré. No puedo simplemente dejar al amor de mi vida, 
+           en verdad sería muy cobarde de mi parte si solo me voy y te dejo sin importar nada porque apesar de todo lo malo mi niño , tú y y sabemos todos los momentos 
+           maravillosos que hemos pasado, todo lo que hemos tenido que hacer para llegar hasta aquí , apesar de la distancia , apesar del corto tiempo con
+           el que disponemos , apesar de las muchas peleas o discuciones , siempre supimos salir adelante y eso el lo que más valoro.
+    
+        </p>
+    </div>
+    <div id="right-text-box" class="text-box">
+        <h2></h2>
+        <p> Ahora mismo pasa por mi mente aquel momento que me pediste que sea tu enamorada , ese momento en el que estabas nervioso y no 
+            sabías donde parar para que me lo dijeras , ese fué uno de los días más felices de mi vida y lo recuerdo ahora mismo con una sonrisa y con lagrimitas en lo ojos 
+            porque me hiciste la mujer más feliz del mundo ese dia...
+            Gracias por haberme dado momentos tan lindos , no sabes cuán feliz me has hecho por mucho tiempo mi vida , y no sabes cuántas ganas tengo de que 
+            sigamos creando momentos juntos.
+            Mi amor quiero quitarte todo lo malo , ya no quiero a mi niño triste o que tenga inseguridades , ya no quiero que mi niño sobrepiense , y voy a hacer de todo 
+            para quitarte todo eso , te lo prometo con el corazón ji , pinky 
+            Dejame luchar por todo el amor que te tengo , déjame hacerte el hombre más feliz porque te juro mi vida que tu felicidad es lo que más me importa
+            y sé puedes hacerlo solo , yo lo sé, pero una vez te dije que desde que yo llegué a tu vida , no te sentirías solo nunca más , lo recuerdas? Pues no lo estás
+            yo estoy aquí y no me pienso ir a ninguna parte sin antes haber dado todo por ti . Porque mi amor como te dije , "La vida es muy corta como para no hacer o no estar con quien amamos"
+            Y yo mi niño , daría mi vida por ti , pero espero no tener que hacerlo jamás porque no quiero que nada malo te pase ,no te quiero perder ,  pero sabes? más que eso , quiero entregarte mi vida a ti.
+            Quiero pasar mi vida a tu lado demostrándote dia a dia lo importante que eres para mi , quiero hacerte feliz cada día de mi vida , quiero pasar mi vida tomando tu mano
+            y sintipendome segura cada día de la elección que hice . Porque yo estoy muy segura que eres tú . Me lo dice mi corazoncito.
+            Te amo y probablemente te voy a amar en todas las vidas y universos que existan , pero también quiero amarte hoy , aquí y ahora.
+            
+            </p>
+        
+    </div>
+</body>
+</html>
